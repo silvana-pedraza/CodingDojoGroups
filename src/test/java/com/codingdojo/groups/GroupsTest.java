@@ -53,7 +53,7 @@ public class GroupsTest extends TestCase {
 
   public void test4() {
     Groups groups = new Groups();
-    List<List<Integer>> result = groups.groupThePeople(new int[] {5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5});
+    List<List<Integer>> result = groups.groupThePeople(new int[] {5, 5, 5, 5, 5, 5, 5, 5, 5, 5});
     assertEquals(2, result.size());
     assertEquals(2, getNumberOfListsOfSizeN(result, 5));
     assertTrue(
